@@ -21,7 +21,15 @@
         "react"
         // "prettier"
     ],
+    "settings": {
+        "import/resolver": {
+          "node": {
+            "paths": ["src"]
+          }
+        }
+    },
     "rules": {
+        // "quotes": 1
         // "prettier/prettier": "error"
         // "semi": ["error", "always"],
         // "quotes": [
